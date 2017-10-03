@@ -6,6 +6,7 @@ import java.math.BigDecimal;
 @Entity
 public class Ingredient {
 
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     private String description;
